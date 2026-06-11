@@ -14,7 +14,6 @@ public:
             build(ans, path + ")", left, right + 1, n);
         }
     }
-
     vector<string> generateParenthesis(int n) {
 
         vector<string> ans;
